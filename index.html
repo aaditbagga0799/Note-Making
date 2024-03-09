@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteForge: Crafting Your Thoughts"</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="as.js" defer></script>
+    <link rel="shortcut icon" href="./assets pro/download.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body onload="initClock()">
+    <div class="container">
+        <div class="up">
+            <div class="left">
+                <!-- <img src="assets pro/asset 0.1.svg" alt="" height="30rem" id="bars"> -->
+                <p class="text">TASKOPIA</p>
+                <div class="create">
+                    <img src="assets pro/asset 0.2.svg" alt="" height="20rem" id="plus">
+                    <p class="text1">Create</p>
+                    <div class="dropdown">
+                        <div class="drop1">
+                            <img src="assets pro/check-circle-2.svg" alt="">
+                            <p class="text1">Task</p>
+                        </div>
+                        <div class="drop1">
+                            <img src="assets pro/clipboard-check.svg" alt="">
+                            <p class="text1">Project</p>
+                        </div>
+                        <div class="drop1">
+                            <img src="assets pro/message-circle-more.svg" alt="">
+                            <p class="text1">Message</p>
+                        </div>
+                        <div class="drop1">
+                            <img src="assets pro/users-round.svg" alt="">
+                            <p class="text1">Team</p>
+                        </div>
+                        <div class="drop1">
+                            <img src="assets pro/folder-closed.svg" alt="">
+                            <p class="text1">Portfolio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="search">
+                    <img src="assets pro/asset 0.3.svg" alt="" height="20rem" id="searchicon">
+                    <p class="text2">Search</p>
+                </div>
+            </div>
+            <div class="right">
+                <img src="assets pro/sun.svg" alt="" class="moon change">
+            </div>
+        </div>
+        <!-- <div class="datetime">
+            <div class="date">
+              <span id="dayname">Day</span>,
+              <span id="month">Month</span>
+              <span id="daynum">00</span>,
+              <span id="year">Year</span>
+            </div>
+            <div class="time">
+              <span id="hour">00</span>:
+              <span id="minutes">00</span>:
+              <span id="seconds">00</span>
+              <span id="period">AM</span>
+            </div>
+          </div> -->
+
+        <div class="down">
+            <div class="sidebar close">
+                <div class="sidenav">
+                    <div class="icon">
+                        <img src="assets pro/menu.svg" alt="" id="sideimg" class="btn1">
+                        <img src="assets pro/taskopia-high-resolution-logo (1).png" alt="" id="sideimg" class="logo"
+                            width="140em" height="120rem">
+                    </div>
+                    <div class="icon">
+                        <img src="assets pro/home.svg" alt="" id="sideimg">
+                        <p class="icontext">Home</p>
+
+                    </div>
+                    <div class="icon">
+                        <img src="assets pro/bell.svg" alt="" id="sideimg">
+                        <p class="icontext">Notifications</p>
+
+                    </div>
+                    <div class="icon">
+                        <img src="assets pro/folder-closed.svg" alt="" id="sideimg">
+                        <p class="icontext">Portfolios</p>
+
+                    </div>
+                    <div class="icon">
+                        <img src="assets pro/users-round.svg" alt="" id="sideimg">
+                        <p class="icontext">Teams</p>
+
+                    </div>
+                    <div class="icon">
+                        <img src="assets pro/target.svg" alt="" id="sideimg">
+                        <p class="icontext">Targets</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets pro/check-circle-2.svg" alt="" id="sideimg">
+                        <p class="icontext">My Taks</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets pro/log-out.svg" alt="" height="30rem">
+                        <a href="http://192.168.86.91:5501/signup.html" class="icontext" id="log-out">Logout</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main main-full">
+                <div class="cntr">
+                    <div class="greet">
+                        <div class="datetime">
+                            <div class="date">
+                              <span id="dayname">Day</span>,
+                              <span id="month">Month</span>
+                              <span id="daynum">00</span>,
+                              <span id="year">Year</span>
+                            </div>
+                            <div class="time">
+                              <span id="hour">00</span>:
+                              <span id="minutes">00</span>:
+                              <span id="seconds">00</span>
+                              <span id="period">AM</span>
+                            </div>
+                          </div>
+                        <!-- <p class="dateandtime"></p> -->
+                        <div class="greets">
+                            <p class="wish"></p>
+                            <p class="username"></p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="swiper d">
+                    
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide">
+                            <div class="x">
+
+                                <div class="started1">
+                                    <img src="assets pro/custom1.png" alt="" width="40px" id="simg">
+                                    <p class="stext1">Collaboration (1 min)</p>
+                                    <br>
+                                    <p class="stext2">Invite Someone to Collaborate</p>
+                                    <br>
+                                    <p class="stext3">Asana is designed for collaboration. Invite a trusted collaborator
+                                        to
+                                        use
+                                        it with you.</p>
+                                </div>
+                                <div class="started1"
+                                    style="background-color: var(--box2color) ;border: 2px solid var(--box2color)">
+                                    <img src="assets pro/custom2.png" alt="" width="40px" id="simg">
+                                    <p class="stext1">Setup (1 min)</p>
+                                    <br>
+                                    <p class="stext2">Customize Your Home Screen</p>
+                                    <br>
+                                    <p class="stext3">Add widgets or change colors to customize your home screen</p>
+                                </div>
+                                <div class="started1"
+                                    style="background-color: var(--box3color) ;border: 2px solid var(--box3color)">
+                                    <img src="assets pro/custom3.png" alt="" width="40px" id="simg">
+                                    <p class="stext1">Workflow (5 min)</p>
+                                    <br>
+                                    <p class="stext2">Update Your Project</p>
+                                    <br>
+                                    <p class="stext3">Visit your project to start organizing wokr and getting things
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
