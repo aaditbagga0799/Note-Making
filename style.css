@@ -398,6 +398,213 @@ body {
     cursor: pointer;
   }
 
+.explore{
+    padding: 2vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.sideimg:hover{
+    width: 1vw;
+}
+  
+  .datetime:hover {
+    background: #36454f;
+    box-shadow: 0 0 30px #2E94E3;
+  }
+  
+  .date {
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  
+  .time {
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time span:not(:last-child) {
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .time span:last-child {
+    background: #424244;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+  }
+
+  @media screen and (max-width: 876px) {
+    .search{
+        width: 49vw;
+    }
+    .sidebar{
+        padding-left: 1.5vw;
+    }
+    .mytasks{
+        height: 19vh;
+    }
+    
+  }
+  @media screen and (max-width:778px) {
+    .started1{
+        padding: 1vw;
+    }
+    .x{
+        gap: 1rem;
+    }
+    .trackre{
+        font-size: 3vw;
+    }
+    .barimage{
+        gap: 1rem;
+    }
+    .mytasks{
+        height: 29vh;
+    }
+    .uptext{
+        font-size: 2vw;
+
+    }
+    .stext3{
+        font-size: 2vw;
+    }
+    .stext2{
+        font-size: 2.1vw;
+    }
+    .date {
+        font-size: 3vw;
+    }
+    .time{
+        font-size: 5vw;
+    }
+    .time span:last-child {
+
+        font-size: 3vw;
+    }
+    .datetime{
+        width: 40vw;
+  height: 18vh;
+    }    
+  }
+  @media screen and (max-width:628px) {
+    .sidebar.close {
+        width: 8%;
+      }
+    
+  }
+  @media screen and (max-width: 526px) {
+    .search{
+        width: 40vw;
+    }
+    .create{
+        font-size: 2.5vw;
+    }
+    .sidenav {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+      }
+    
+      .sidebar{
+        justify-content:initial;
+      }
+      .datetime {
+        width: 40vw;
+        height: 10vh;
+      }
+      .barimage {
+        gap: 0.5rem;
+      }
+      
+  }
+  @media screen  and (max-width:578px){
+    .mytasks {
+        height: 25vh;
+      }
+      .bartext2 {
+        color: #4b4c4d;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2vw;
+      }
+      .uptext {
+        font-size: 1.7vw;
+      }
+      .profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 2.5vw;
+      }
+      .proftext {
+        color: var(--textcolor);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3vw;
+        font-size: 3vw;
+      }
+      .middle{
+        gap: 0.5rem;
+      }
+      .datetime{
+        height: 14vh;
+      }
+    
+  }
+  @media screen  and (max-width:438px){
+    .sidebar {
+        padding-left: 1vw;
+      }
+      .search {
+        width: 28vw;
+      }
+      .datetime {
+        width: 40vw;
+        height: 12vh;
+      }
+      .started1 {
+        padding: 0.1vw;
+      }
+      .middle {
+        display: flex;
+        margin: 1rem 0;
+        width: 100%;
+        height: 28%;
+        gap: 0.4rem;
+        align-items: center;
+        justify-content: center;
+      }
+      .x{
+        flex-direction: column;
+      }
+      .started1{
+        width: 62vw;
+
+  padding: 2vh;
+      }
+      .barimage{
+        padding: 0;
+      }
+  }
+  @media screen  and (max-width:380px){
+    .sidebar {
+        padding-left: 0.5vw;
+      }
+    
+  }
+
+
 
 
 
