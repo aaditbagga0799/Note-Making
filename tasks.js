@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     function addNewNoteToTable(noteHeading, currentTime) {
     const newRow = notesBody.insertRow();
-    newRow.innerHTML = <td>${noteHeading}</td><td>${currentTime}</td><td><button class="view-btn">View</button></td><td><button class="remove-btn">Remove</button></td>;
+    newRow.innerHTML = `<td>${noteHeading}</td><td>${currentTime}</td><td><button class="view-btn">View</button></td><td><button class="remove-btn">Remove</button></td>`;
 }
 notesTable.addEventListener('click', function(event) {
     const target = event.target;
