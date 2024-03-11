@@ -30,7 +30,7 @@ create.addEventListener("click",(e)=>{
     drop.classList.toggle("drops").style.display="flex";
 })
 
-function updateClock(){
+ function updateClock(){
     var now= new Date();
     var dname=now.getDay(),
         mo=now.getMonth(),
